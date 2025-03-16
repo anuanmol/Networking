@@ -125,7 +125,7 @@ def main():
         ax.bar_label(bars, fmt='%.2f%%')
         memory_placeholder.pyplot(fig)
 
-        time.sleep(1)  # Wait for 1 second before updating again
+        time.sleep(5)  # Wait for 1 second before updating again
 
 if __name__ == "__main__":
     main()
