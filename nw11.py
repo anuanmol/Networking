@@ -53,7 +53,7 @@ def main():
 
     while True:
         # Update latency data
-        latency = os.popen("ping -n 1 google.com").read()
+        latency = os.popen("").read()
         try:
             latency_ms = float(latency.split('time=')[1].split('ms')[0])
         except (IndexError, ValueError):
